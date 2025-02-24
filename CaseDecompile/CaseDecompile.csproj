@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetTopologySuite" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AgGateway.ADAPT.ApplicationDataModel">
+      <HintPath>lib\AgGateway.ADAPT.ApplicationDataModel.dll</HintPath>
+    </Reference>
+    <Reference Include="AgGateway.ADAPT.PluginManager">
+      <HintPath>lib\AgGateway.ADAPT.PluginManager.dll</HintPath>
+    </Reference>
+    <Reference Include="AgGateway.ADAPT.Representation">
+      <HintPath>lib\AgGateway.ADAPT.Representation.dll</HintPath>
+    </Reference>
+    <Reference Include="CNHVoyager2">
+      <HintPath>lib\CNHVoyager2.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>lib\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Voyager2Plugin">
+      <HintPath>lib\Voyager2Plugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
